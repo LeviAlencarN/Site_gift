@@ -1,0 +1,89 @@
+body{
+    background-image: url(../img_log/arvore.jpg);
+    background-position: 60% 20%;
+    color: #fff;
+    font-family: arial;
+}
+*{
+    padding: 0px;
+    margin: 0px
+} 
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+}
+
+div#body{
+    /*background-color: aqua;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#cad{
+    /*background-color: aqua;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#body h1{
+    text-align: center;
+    padding: 20px;
+}
+input[type=submit]{
+    display: block;
+    height: 55px;
+    width: 440px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+:-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+:-ms-input-placeholder{
+    color: #fff;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34,139 ,34 );
+}
+div#msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgb(165, 42, 42);
+}
